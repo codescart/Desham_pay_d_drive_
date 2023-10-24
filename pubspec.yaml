@@ -1,0 +1,51 @@
+name: mp_pay
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  upi_india: ^3.0.1
+  shared_preferences: ^2.0.15
+  carousel_slider: ^2.0.0
+  platform_device_id: ^1.0.1
+  http: ^0.13.5
+  intl: ^0.17.0
+  flutter_screen_lock: ^5.0.6+1
+  local_auth: ^2.1.2
+  url_launcher: ^6.1.5
+  paytm: ^3.0.1
+  provider:
+  razorpay_flutter: ^1.3.4
+  toggle_switch: ^2.0.1
+  syncfusion_flutter_datepicker:
+  fluttertoast: ^8.1.3
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: Windsor
+      fonts:
+        - asset: fonts/WindsorProBold.TTF
+
+  assets:
+    - assets/
